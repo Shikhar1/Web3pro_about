@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/newstyle.css">
     <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     </head>
 <body>
     <header class="main_menu mobile-view" id="home">
@@ -91,13 +93,13 @@
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="row justify-content-center">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6" data-aos="fade-up-left">
                             <div class="mission-heading">
                                 <h1>Our Mission</h1>
                                 <p>Enable enterprise companies and brands to understand and tap into the reality that NFTs and NFRs will be the digital status and currency of the future.</p>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6" data-aos="fade-up-right">
                             <div class="mission-img">
                                 <img src="images/comp-mission.jpg" alt="">
                             </div>
@@ -108,7 +110,7 @@
         </div>
     </section>
     <section class="company-ex">
-        <div class="container">
+        <div class="container" data-aos="flip-left">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="row justify-content-center">
@@ -142,7 +144,7 @@
         </div>
     </section>
     <section class="ex-team">
-        <div class="container">
+        <div class="container" data-aos="zoom-in">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="row justify-content-center">
@@ -222,7 +224,7 @@
         </div>
     </section>
     <section class="ex-team team2">
-        <div class="container">
+        <div class="container" data-aos="zoom-in-left">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="row justify-content-center">
@@ -318,7 +320,7 @@
         </div>
     </section>
     <section class="ex-team invester">
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="row justify-content-center align-items-center">
@@ -443,5 +445,11 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.js"></script>
     <script src="js/custom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+  AOS.init();
+</script>
+
 </body>
 </html>
