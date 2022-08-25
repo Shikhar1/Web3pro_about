@@ -772,10 +772,10 @@ background: none!important;
 }
 .company{
   background-image: none!important;
-  background-color: #f2f2fd;
+  background-color: #000;
 }
 .company p {
-  color: #666666!important;
+  color: #fff !important;
   font-size: 17px;
   font-weight: bolder;
 }
