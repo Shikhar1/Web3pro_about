@@ -263,9 +263,9 @@ body {
   color: #fff;
   text-shadow: 2px 2px 5px #ffffff;
 }
-.banner_part .banner_text p {
+ {
   color: #fff;
-  padding: 10px 50px;
+  padding: 115px 50px 10px;
 }
 .banner-btn ul li {
   display: inline-block;
@@ -481,10 +481,7 @@ margin-right: 2px;
   position: absolute;
   margin-top: 72px;
 }
-.nftpro-ban .banner_text {
-  padding-top: 130px;
-  padding-bottom: 50px;
-}
+
 .nftpro-ban ul li .btn{
   color: #fff;
   border-radius: 0;
